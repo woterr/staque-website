@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get("/invite", (req, res) =>
   res.redirect(
-    `https://discord.com/api/oauth2/authorize?client_id=923208617920987136&permissions=2416298064&scope=applications.commands%20bot`
+    `https://discord.com/api/oauth2/authorize?client_id=923208617920987136&permissions=1101927926896&scope=bot%20applications.commands`
   )
 );
 
